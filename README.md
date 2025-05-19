@@ -26,6 +26,14 @@ This challenge is part of the technical evaluation for a Flutter engineering rol
 - Line chart of visits per customer over time
 - Bottom navigation bar with centered FAB for adding visits
 
+## Setup
+
+1. **Clone the repository:**
+2. **Install Dependencies:**
+   flutter pub get
+3. **Run App:**
+   flutter run
+
 ## Architecture, Approach, and Scalability
 
 The folder structure supports seperation of concerns
@@ -35,16 +43,14 @@ The folder structure supports seperation of concerns
 - **State Management**: `Riverpod` for scalable, testable state control
 - **Navigation**: `GoRouter` with `ShellRoute` to support bottom navigation and modular routing
 - **Offline Support**: `SharedPreferences` to store visits locally and syncing later
-- **Charting**: `fl_chart` for rendering statistical visit trends
-- **Scalability**: Modular structure with separation of concerns across models, services, UI, and logic layers
+- **Charting**: `fl_chart` for rendering statistical visit data
+- **Scalability**: Folder structure with separation of concerns: models, services, UI, and logic layers
 
-## Setup
+## User Experience Enhancements
 
-1. **Clone the repository:**
-2. **Install Dependencies:**
-   flutter pub get
-3. **Run App:**
-   flutter run
+1. Used different colors for different statuses to easily identify and differenciate states
+2. Bottom Navigation bar for easy movement
+3. Simple, intuitive UI
 
 ## Notes on offline support, testing, or CI if implemented
 
